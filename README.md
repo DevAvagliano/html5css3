@@ -17,3 +17,5 @@ Aprdenda HTML5, CSS3 e SEO de forma simples, prática e objetiva, desenvolvendo 
 [iconfinder](https://www.iconfinder.com/)
 
 [optmizilla](https://imagecompressor.com/pt/)
+### Biografia
+[Professor José de Assis](https://github.com/professorjosedeassis/)
