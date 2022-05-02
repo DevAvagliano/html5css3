@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,11 +12,24 @@
     <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Cabeçalho -->
-    <header>
-        <div class="Container">
-
+    <header id="inicio">
+        <div class="Container Flex">
+            <div id="logo">
+                <img src="img/logo.png" alt="hal 9000">
+            </div>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check">&#x268C;</label>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#conteudo">Conteúdo</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
@@ -28,7 +42,7 @@
     </main>
 
     <!-- Seção Sobre -->
-    <section>
+    <section id="sobre">
         <div class="Container">
             <h2>Aprender na prática</h2>
         </div>
@@ -49,7 +63,7 @@
     </section>
 
     <!-- Seção Conteúdo -->
-    <section>
+    <section id="conteudo">
         <Div class="Container">
             <h2>Conteúdo</h2>
             <h3>HTML5</h3>
@@ -59,10 +73,12 @@
     </section>
 
     <!-- Rodapé -->
-    <footer>
+    <footer id="contato">
         <Div class="Container">
 
         </Div>
     </footer>
+    <a href="#inicio" id="topo"><img src="img/topo.png" alt="topo do site"></a>
 </body>
+
 </html>
