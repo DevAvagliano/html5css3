@@ -6,6 +6,8 @@
 /* Importação (Google Fonts) */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap");
+
 /* CSS Reset */
 *{
     margin: 0;
@@ -21,17 +23,30 @@ body {
 .Container {
     margin: 0 auto;
 }
-.Flex {
+
+.Flex,
+.Flex2,
+.Flex3,
+.Flex4,
+.Flex5 {
     display: flex;
+}
+.Flex {
     justify-content: space-between;    
 }
 .Flex2 {
-    display: flex;
     align-items: center;
 }
 .Flex3 {
-    display: flex;
     flex-direction: column;
+}
+.Flex4 {
+    flex-direction: column-reverse;
+    text-align: center;
+}
+.Flex5 {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .Botao {
     text-decoration: none;
@@ -41,6 +56,45 @@ body {
     padding: 5px 40px;
     border: 2px solid #fff;
     border-radius: 25px;
+}
+.Card {
+    margin-top: 30px;
+    width: 338px;
+    height: 520px;
+    background-color: #f1f3f4;
+    border: 1px solid #a1a1a1;
+    border-radius: 25px;
+    text-align: center;
+}
+.Card img {
+    border-radius: 25px 25px 0px 0px;
+}
+.Card h3 {
+    margin: 15px 30px 0px 30px;
+ }
+  
+.Card p {
+    text-align: left;
+    color: #434343;
+    padding: 10px 30px 50px 30px;
+}
+  
+.Card a {
+    padding: 10px 100px 10px 100px;
+    border: 0;
+    border-radius: 25px;
+    margin: 0;
+}
+.Todos {
+    text-align: center;
+    margin-top: 50px;
+}
+  
+.Todos a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 1.25em;
 }
 
 /* Topo do site */
@@ -83,7 +137,7 @@ nav ul {
     right: 0;
 }
 nav ul li {
-    padding: 20px;
+    padding: 17px 20px;
     border-bottom: 1px solid #a9a9a9;
 }
 nav ul li a {
@@ -173,6 +227,29 @@ main h2 {
 #qrcode {
     display: none;
 }
+/* Conteúdo */
+#conteudo {
+    padding: 40px 0px;
+}
+#conteudo h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2em;
+}
+/* Rodapé */
+footer {
+    background-color: #343538;
+    color: #fff;
+    text-align: center;
+    font-size: 0.875em;
+}
+footer p {
+    margin-bottom: 25px;
+}
+#social {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px){
@@ -191,6 +268,12 @@ main h2 {
         width: 560px;
         height: 315px;
     }
+    /* Rodapé */
+    .Flex3 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
 }
 
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -246,7 +329,7 @@ main h2 {
         position: static;
         height: auto;
         background-color: transparent;
-        margin-top: 65px;
+        margin-top: 40px;
     }
     nav ul li {
         float: left;
@@ -287,6 +370,13 @@ main h2 {
     #qrcode img {
         width: 225px;
         height: 225px;
+    }
+    /* Rodapé */
+    .Flex4 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
     }
 
 }
