@@ -22,7 +22,8 @@ body {
 .Flex2,
 .Flex3,
 .Flex4,
-.Flex5 {
+.Flex5,
+.Flex6 {
   display: flex;
 }
 .Flex {
@@ -43,6 +44,10 @@ body {
 .Flex5 {
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+.Flex6 {
+  flex-direction: column;
+  justify-content: space-around;
 }
 .Botao {
   text-decoration: none;
@@ -249,18 +254,54 @@ main h2 {
 }
 
 /* Rodapé */
+#contato #zap {
+  width: 35px;
+  height: 35px;
+}
+#contato #fone {
+  width: 28px;
+  height: 28px;
+}
+#contato a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+address {
+  padding: 35px 15px 50px 15px;
+  background-color: #a1a1a1;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-style: normal;
+}
+address a {
+  text-decoration: none;
+  color: #fff;
+}
+address img {
+  padding-top: 15px;
+}
+#iconeLocal {
+  display: none;
+}
+#endereco {
+  margin: 30px 0px 15px 0px;
+}
+#googlemaps {
+  display: none;
+}
+
 footer {
+  padding: 2.5rem;
   background-color: #343538;
   color: #fff;
   text-align: center;
   font-size: 0.875em;
 }
-footer p {
-  margin-bottom: 25px;
-}
+
 #social {
-  margin-bottom: 25px;
-  margin-top: 25px;
+  margin-bottom: 1.5rem;
 }
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -277,10 +318,13 @@ footer p {
   }
 
   /* Rodapé */
-  .Flex3 {
+  .Flex4 {
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+  }
+  #social {
+    margin: 0;
   }
 }
 
@@ -420,6 +464,18 @@ footer p {
     height: 250px;
   }
   /* Rodapé */
+  #iconeLocal {
+    display: inline;
+  }
+  #iconeMapa {
+    display: none;
+  }
+  #googlemaps {
+    display: inline;
+  }
+  .Flex6 {
+    flex-direction: row-reverse;
+  }
   .Flex4 {
     flex-direction: row;
     align-items: center;
