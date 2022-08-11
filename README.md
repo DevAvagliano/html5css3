@@ -1,9 +1,9 @@
 ![W3C Validation](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fhtml5css3.com.br%2F)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fhtml5css3.com.br)
 
-# Apresentação do projeto
+# Apresentação
 
-One Page responsivo, moderno e objetivo desenvolvido com puro HTML5, CSS3 e SEO.
+Projeto OnePage simples e responsivo, para estudo do HTML5 e CSS3 com a aplicação do SEO.
 
 ### Construído com
 
