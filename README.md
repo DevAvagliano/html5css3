@@ -3,9 +3,9 @@
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fhtml5css3.com.br)
 ![Netlify Status](https://api.netlify.com/api/v1/badges/2de7f9d9-e091-4084-b84b-c5c33a95ef09/deploy-status)
 
-# Apresentação
+# Material para estudo
 
-Projeto OnePage simples e responsivo, para estudo do HTML5 e CSS3 com a aplicação do SEO.
+Projeto: OnePage simples e responsivo, para estudo do HTML5 e CSS3 com aplicação do SEO.
 
 ### Construído com
 
